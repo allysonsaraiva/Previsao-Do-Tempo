@@ -6,6 +6,7 @@ function Card({ data }) {
     location,
     current,
   } = data;
+
   return (
     <div className="bg-white p-6 mt-10 rounded-lg shadow-md min-w-[220px]">
       <div className="text-center">
